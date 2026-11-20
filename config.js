@@ -8,10 +8,9 @@ const BOT_NAME       = 'RISHI BOT';
 const AI_NAME        = 'FUCHKUN AI';
 const CREATOR_NAME   = 'RISHI TECH';
 const CREATOR_INFO   = 'Software developer and ethical hacker';
-const OWNER_NUMBER   = '+91 9341817757';
-const PAIR_NUMBER    = '+91 9341817757';
-const GROQ_API_KEY   = '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'; // ✏️ Semicolon hata kar sahi key dalein
-const BOT_IMAGE      = 'https://i.ibb.co/Rp4WPqb5/bot.jpg'; // Direct image link
+const OWNER_NUMBER   = '+91 0000000000'; // Apna WhatsApp number dalein
+const PAIR_NUMBER    = '+91 0000000000'; // Apna Pairing number dalein
+const GROQ_API_KEY   = 'gsk_your_groq_api_key_here'; // Apni Groq API key dalein
 
 const AI_HELPS_WITH  =
   'Helping beginners learn programming: explain simply, give small examples, help fix errors step by step.';
