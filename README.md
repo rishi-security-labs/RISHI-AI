@@ -61,24 +61,3 @@ Follow these exact steps to host the bot for free on **Katabump** (or any Pterod
    const PAIR_NUMBER    = '+91 9876543210'; // Same WhatsApp number for pairing code
    const GROQ_API_KEY   = 'gsk_your_actual_api_key_here'; // Paste your Groq API key
 
-​📱 How to Connect with WhatsApp (Pairing Code)
-​Once the installation finishes, look at the Console screen:
-​1. An 8-Digit Pairing Code (e.g., ABCD-1234) will appear in the console.
-​2. Open WhatsApp on your mobile phone.
-​3. Tap the Three Dots (⋮) at the top right (or Settings on iPhone).
-​4. Tap Linked Devices → Link a Device.
-​5. At the bottom, tap "Link with phone number instead".
-​6. Enter the 8-Digit Code shown in your Katabump console.
-​7. Within 5 seconds, your console will show [BOT] RISHI BOT v2.0 connected ✅ and you will receive an "Online" message on WhatsApp!
-​💡 How to Use the Bot
-​1. In Personal Chats (DM)
-​Commands: Send any command starting with . (dot), such as .menu or .ping.
-​AI Chat: Simply send any normal text message (e.g., "Explain Python loops"), and the bot will automatically reply using AI.
-​Self-Chat ("Message Yourself"): You can test all . commands directly in your own "Message Yourself" chat.
-​2. In WhatsApp Groups
-​Using Commands: Type .menu, .tagall, .s, etc.
-​Talking to AI in Groups: The bot will not reply to every random group message to avoid spam. To talk to the AI in a group:
-​Either use .ai <your question> (e.g., .ai What is HTML?)
-​Or Swipe/Reply directly to any message sent by the bot.
-​📌 Complete Commands List
-​🌐 General Commands
