@@ -19,5 +19,5 @@ An advanced, fast, and lightweight WhatsApp Multi-Device bot powered by **Bailey
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/RISHI-BOT.git](https://github.com/YOUR_USERNAME/RISHI-BOT.git)
+git clone [https://github.com/rishi-security-labs/RISHI-AI.git](https://github.com/rishi-security-labs/RISHI-AI.git)
 cd RISHI-BOT
