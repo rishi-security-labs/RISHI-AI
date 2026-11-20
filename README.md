@@ -2,6 +2,8 @@
 
 A fast, lightweight, and feature-rich WhatsApp Multi-Device bot powered by **Baileys** and **Groq AI**. Easy to deploy on **Katabump**, **Pterodactyl Panels**, **VPS**, or **Termux**.
 
+🔗 **Repository:** [https://github.com/rishi-security-labs/RISHI-AI.git](https://github.com/rishi-security-labs/RISHI-AI.git)
+
 ---
 
 ## 📋 Table of Contents
@@ -49,13 +51,14 @@ Follow these exact steps to host the bot for free on **Katabump** (or any Pterod
 2. Click on **Create Server**.
 3. Give your server a name (e.g., `Rishi-Bot`), select **Node.js** as the server type/egg, and create the server.
 
-### Step 2: Upload Bot Files
-1. Open your server in the panel and go to the **Files** tab.
-2. Upload the following files from this repository:
-   - `index.js`
-   - `config.js`
-   - `package.json`
-   *(Note: Alternatively, go to the **Startup** tab, paste this GitHub repository URL into **Git Repo Address**, and restart the server to auto-download files).*
+### Step 2: Upload / Clone Bot Files
+- **Option A (Auto-Clone via Git — Recommended):**
+  1. Go to the **Startup** tab in your panel.
+  2. Paste `https://github.com/rishi-security-labs/RISHI-AI.git` into the **Git Repo Address** field.
+  3. Enable **Auto Update** (`1`) and restart the server to auto-download all files.
+- **Option B (Manual Upload):**
+  1. Open your server in the panel and go to the **Files** tab.
+  2. Upload `index.js`, `config.js`, and `package.json`.
 
 ### Step 3: Edit `config.js`
 1. In the **Files** tab, click on `config.js` to open the editor.
@@ -171,15 +174,23 @@ This bot relies on the following external API endpoints to function:
 
 ---
 
-## 📤 GitHub Upload Commands
-To upload your own modified version of this bot to GitHub (make sure `.gitignore` excludes `session/` and `node_modules/`):
+## 📤 GitHub Upload & Clone Commands
 
+### Clone This Repository (VPS / Termux)
+```bash
+git clone [https://github.com/rishi-security-labs/RISHI-AI.git](https://github.com/rishi-security-labs/RISHI-AI.git)
+cd RISHI-AI
+npm install
+npm start
+```
+
+### Push Updates to GitHub
 ```bash
 git init
 git add .
-git commit -m "Initial commit: RISHI BOT v2.0"
+git commit -m "Update: RISHI BOT v2.0"
 git branch -M main
-git remote add origin [https://github.com/rishi-security-labs/RISHI-AI.git](https://github.com/rishi-security-labs/RISHI-AI.git))
+git remote add origin [https://github.com/rishi-security-labs/RISHI-AI.git](https://github.com/rishi-security-labs/RISHI-AI.git)
 git push -u origin main
 ```
 
@@ -198,5 +209,5 @@ git push -u origin main
 
 ## 📄 License & Credits
 - **License:** Distributed under the **MIT License**. Free to use, modify, and distribute with attribution.
-- **Developer:** **RISHI TECH**
+- **Developer:** **RISHI TECH** ([rishi-security-labs](https://github.com/rishi-security-labs))
 - **Core Library:** [@whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys)
